@@ -43,7 +43,7 @@
                     }
                     sesion.setAttribute("usuario", nombrecompleto);
                     sesion.setAttribute("nivel",nivel);
-                    response.sendRedirect("vistaPersona.jsp"); 
+                    response.sendRedirect("crudusuario.jsp"); 
                 }
                 if(request.getParameter("cerrar")!=null){
                     sesion.invalidate();

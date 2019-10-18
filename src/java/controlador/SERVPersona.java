@@ -74,7 +74,7 @@ public class SERVPersona extends HttpServlet {
                     datos = dao.consultar();
                     request.setAttribute("reinicio", datos);
                 }
-                 request.getRequestDispatcher("vistaPersona.jsp").forward(request, response);
+                 request.getRequestDispatcher("crudusuario.jsp").forward(request, response);
                
             } catch (Exception e) {
                 
